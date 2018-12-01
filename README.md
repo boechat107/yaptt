@@ -30,3 +30,7 @@
     file for Phaser, *phaser.d.ts*, was downloaded from
     [phaser3-docs](https://github.com/photonstorm/phaser3-docs)
     (commit [47da5dea](https://github.com/photonstorm/phaser3-docs/commit/47da5dea99737a95932c73873758afd6e9e01b08)).
+
+* *phaser_game_config.json* is a general configuration file to set any game
+    parameters. A special compiler option needs to be set to import JSON files
+    like it is done here.

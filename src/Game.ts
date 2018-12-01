@@ -1,4 +1,7 @@
 import "phaser";
+// How to load a JSON:
+// https://stackoverflow.com/a/50674344/747872
+import * as cfg from "./phaser_game_config.json";
 
 
 function preload(this: Phaser.Scene) {
@@ -10,7 +13,7 @@ function create(this: Phaser.Scene) {
     let logo = this.add.image(400, 150, 'logo');
     this.tweens.add({
         targets: logo,
-        y: 450,
+        y: 400,
         duration: 2000,
         ease: 'Power2',
         yoyo: true,
@@ -22,8 +25,8 @@ function create(this: Phaser.Scene) {
 let config = {
     type: Phaser.AUTO,
     parent: 'phaser-example',
-    width: 800,
-    height: 600,
+    width: cfg.screen.width,
+    height: cfg.screen.height,
     scene: {
         preload: preload,
         create: create

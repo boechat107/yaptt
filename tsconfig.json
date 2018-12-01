@@ -6,7 +6,8 @@
         "strict": true,
         "sourceMap": true,
         "noImplicitThis": true,
-        "noImplicitAny": true
+        "noImplicitAny": true,
+        "resolveJsonModule": true
     },
     "include": [
         "./src/**/*"
