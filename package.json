@@ -1,0 +1,27 @@
+{
+  "name": "phaser3_tuto",
+  "version": "0.1.0",
+  "description": "tutorial game",
+  "scripts": {
+    "build:dev": "./node_modules/.bin/webpack --env dev",
+    "build:prod": "./node_modules/.bin/webpack --env prod",
+    "start": "./node_modules/.bin/webpack-dev-server -d --env dev",
+    "watch": "./node_modules/.bin/webpack --env dev --watch"
+  },
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "@types/node": "^10.12.11",
+    "@types/webpack": "^4.4.20",
+    "raw-loader": "^0.5.1",
+    "ts-loader": "^5.3.1",
+    "typescript": "^3.2.1",
+    "webpack": "^4.26.1",
+    "webpack-cli": "^3.1.2",
+    "webpack-dev-server": "^3.1.10"
+  },
+  "dependencies": {
+    "copy-webpack-plugin": "^4.6.0",
+    "phaser": "^3.15.1"
+  }
+}
