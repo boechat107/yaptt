@@ -11,7 +11,9 @@ This is just another template for Game development using
 3. `npm start`
 4. Go to `localhost:8080`
 
-Tested with Nodejs v10.x
+To build for production environments (JS minification), use `npm run build:prd`.
+
+PS.: Tested with Nodejs v10.x
 
 ## How does it work?
 
