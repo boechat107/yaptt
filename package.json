@@ -4,7 +4,7 @@
   "description": "tutorial game",
   "scripts": {
     "build:dev": "webpack --env dev",
-    "build:prod": "webpack --env prod",
+    "build:prd": "webpack --env prd",
     "start": "webpack-dev-server -d --env dev",
     "watch": "webpack --env dev --watch"
   },
