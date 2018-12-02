@@ -3,10 +3,10 @@
   "version": "0.1.0",
   "description": "tutorial game",
   "scripts": {
-    "build:dev": "./node_modules/.bin/webpack --env dev",
-    "build:prod": "./node_modules/.bin/webpack --env prod",
-    "start": "./node_modules/.bin/webpack-dev-server -d --env dev",
-    "watch": "./node_modules/.bin/webpack --env dev --watch"
+    "build:dev": "webpack --env dev",
+    "build:prod": "webpack --env prod",
+    "start": "webpack-dev-server -d --env dev",
+    "watch": "webpack --env dev --watch"
   },
   "author": "",
   "license": "ISC",
