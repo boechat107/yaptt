@@ -1,6 +1,8 @@
 # Phaser 3 - Typescript - Example
 
-* Tested with Nodejs v10.x
+This is just another template for Game development using
+[Phaser 3](https://phaser.io/) and Typescript. Heavily inspired by
+[wtravO's template](https://github.com/wtravO/phaser3-typescript-template).
 
 ## Build and run
 
@@ -9,6 +11,7 @@
 3. `npm start`
 4. Go to `localhost:8080`
 
+Tested with Nodejs v10.x
 
 ## How does it work?
 
